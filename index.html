@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyReach Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>SkyReach</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#catalogue">Catalogue</a></li>
+                <li><a href="#bulk-cooking">Bulk Cooking</a></li>
+                <li><a href="#producteurs">Producteurs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Consommez local, cuisinez mieux</h2>
+        <p>Une plateforme dédiée aux produits locaux et à la préparation facile de repas en Île-de-France.</p>
+        <a href="#catalogue" class="btn">Découvrir le catalogue</a>
+    </section>
+
+    <section id="catalogue">
+        <h2>Catalogue de Produits</h2>
+        <div class="filters">
+            <label for="season">Saisonnalité :</label>
+            <select id="season">
+                <option value="all">Tous</option>
+                <option value="spring">Printemps</option>
+                <option value="summer">Été</option>
+                <option value="autumn">Automne</option>
+                <option value="winter">Hiver</option>
+            </select>
+            <label for="category">Catégorie :</label>
+            <select id="category">
+                <option value="all">Toutes</option>
+                <option value="fruits">Fruits</option>
+                <option value="vegetables">Légumes</option>
+                <option value="meat">Viandes</option>
+                <option value="dairy">Produits laitiers</option>
+            </select>
+        </div>
+        <div class="product-list">
+            <!-- Placeholder for dynamic products -->
+            <div class="product-item">
+                <img src="apple.jpg" alt="Pommes">
+                <h3>Pommes</h3>
+                <p>Origine : Ferme des Champs</p>
+                <p>Prix : 3€/kg</p>
+                <button>Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="bulk-cooking">
+        <h2>Bulk Cooking</h2>
+        <p>Préparez des repas sains et délicieux en grande quantité grâce à nos recettes adaptées.</p>
+        <div class="recipes">
+            <div class="recipe-item">
+                <h3>Soupe de légumes de saison</h3>
+                <p>Ingrédients : carottes, poireaux, pommes de terre...</p>
+                <button>Voir la recette</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="producteurs">
+        <h2>Nos Producteurs</h2>
+        <div class="producer-list">
+            <div class="producer-item">
+                <h3>Ferme des Champs</h3>
+                <p>Spécialité : Fruits et légumes bio</p>
+                <p>Localisation : Île-de-France</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SkyReach. Tous droits réservés.</p>
+        <a href="#contact">Contactez-nous</a>
+    </footer>
+</body>
+</html>
