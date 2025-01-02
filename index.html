@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SkyReach - Minimal Design</title>
+    <title>La Charlotte - Consommez local, cuisinez mieux</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">La Charlotte</div>
+        <div class="logo">SkyReach</div>
         <nav>
             <ul>
+                <li><a href="#about">À propos</a></li>
                 <li><a href="#catalogue">Catalogue</a></li>
                 <li><a href="#bulk-cooking">Bulk Cooking</a></li>
-                <li><a href="#producteurs">Producteurs</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -21,28 +21,56 @@
 
     <section id="hero">
         <h1>Consommez local, cuisinez mieux</h1>
-        <p>Une plateforme élégante pour simplifier votre quotidien.</p>
-        <a href="#catalogue" class="btn">Découvrez nos produits</a>
+        <p>La Charlotte, une plateforme dédiée à la valorisation des produits locaux et de saison, tout en simplifiant votre quotidien avec des solutions de bulk cooking.</p>
+        <a href="#about" class="btn">En savoir plus</a>
+    </section>
+
+    <section id="about" class="section">
+        <h2>À propos de nous</h2>
+        <p>Chez La Charlotte, nous croyons en un avenir alimentaire durable et accessible. En combinant circuits courts, produits de saison, et outils pratiques, nous proposons une alternative aux systèmes alimentaires traditionnels. Notre mission est de :</p>
+        <ul>
+            <li><strong>Faciliter l’accès aux produits locaux :</strong> Connecter producteurs et consommateurs grâce à une marketplace intuitive.</li>
+            <li><strong>Promouvoir l’écoresponsabilité :</strong> Réduire l’empreinte carbone et valoriser la biodiversité.</li>
+            <li><strong>Simplifier la cuisine :</strong> Offrir des recettes adaptées au bulk cooking pour une gestion simplifiée des repas.</li>
+            <li><strong>Soutenir les producteurs :</strong> Accroître leur visibilité et leurs revenus avec une plateforme moderne.</li>
+        </ul>
     </section>
 
     <section id="catalogue" class="section">
         <h2>Catalogue</h2>
+        <p>Découvrez une sélection de produits frais et locaux, cultivés avec soin par des producteurs engagés.</p>
         <div class="product-grid">
             <div class="product-item">
-                <img src="images/apple.jpg" alt="Pommes">
+                <img src="images/apple.jpg" alt="Pommes" style="width: 150px; height: auto;">
                 <h3>Pommes</h3>
+                <p>Origine : Ferme des Champs</p>
                 <p>Prix : 3€/kg</p>
             </div>
             <div class="product-item">
-                <img src="images/carrot.jpg" alt="Carottes">
+				<img src="images/carrot.jpg" alt="Pommes" style="width: 150px; height: auto;">
                 <h3>Carottes</h3>
+                <p>Origine : Ferme des Prés</p>
                 <p>Prix : 2€/kg</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="bulk-cooking" class="section">
+        <h2>Bulk Cooking</h2>
+        <p>Préparez vos repas en grandes quantités avec des recettes simples et adaptées, basées sur les produits de saison disponibles localement.</p>
+        <div class="recipes">
+            <div class="recipe-item">
+                <h3>Soupe de légumes de saison</h3>
+                <p>Ingrédients : carottes, poireaux, pommes de terre...</p>
+                <button>Voir la recette</button>
             </div>
         </div>
     </section>
 
     <footer>
         <p>&copy; 2025 La Charlotte. Tous droits réservés.</p>
+        <a href="#contact">Contactez-nous</a>
     </footer>
 </body>
 </html>
+
